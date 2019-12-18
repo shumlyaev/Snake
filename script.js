@@ -106,7 +106,7 @@ function move() {
         clearInterval(interval);
     }
 
-    if (score == width - 3) {
+    if (score == (width * width) - 3) {
         gameOver = true;
         pauseInput.value = 'YOU WIN';
         clearInterval(interval);
