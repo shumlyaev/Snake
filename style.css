@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 100px;
+    background-color: rgb(20, 20, 20);
+}
+.field {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(30, 30, 30);
+}
+.cell {
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+}
+.snakeBody {
+    background-color: green;
+}
+.snakeHead {
+    background-color: green;
+}
+.apple {
+    background-color: red;
+}
+#scoreInput {
+    margin:auto;
+    margin-top:40px;
+    font-size: 20px;
+    display: block;
+    background-color: transparent;
+    border-color: transparent;
+    color: #cccccc;
+    text-align: center;
+}
+#pauseInput {
+    margin:auto;
+    margin-top:10px;
+    font-size: 40px;
+    display: block;
+    background-color: transparent;
+    border-color: transparent;
+    color: #cccccc;
+    text-align: center;
+}
